@@ -1,0 +1,24 @@
+﻿div.content {
+    height: 1520px;
+}
+
+div.grid {
+    height: 1520px;
+}
+
+div.bottom-grid {
+    top: 1500px;
+}
+
+div.content div.tire {
+    height: 1235px;
+}
+
+ul.conditions {
+    list-style-image: url(../images/wheel.png);
+    font-size: 20px;
+}
+
+    ul.conditions li {
+        padding: 10px 0;
+    }

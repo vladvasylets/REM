@@ -1,0 +1,15 @@
+﻿div.content {
+    height: 1220px;
+}
+div.grid {
+    height: 1220px;
+}
+div.bottom-grid {
+    top: 1200px;
+}
+div.content div.tire {
+    height: 935px;
+}
+#gallery img {
+    max-width: 100px;
+}

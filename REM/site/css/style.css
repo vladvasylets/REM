@@ -1,0 +1,339 @@
+body, p, h1, h2, h3, h4, h5, h6, ul{
+    margin: 0px;
+}
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+    right: 0px;
+}
+span.red {
+    color: red;
+    font-weight: bold;
+}
+div.container
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-height: 768px;
+}
+
+    div.container div.grid
+    {
+        position: absolute;
+    }
+
+div.header
+{
+    width: 100%;
+    height: 200px;
+    background-color: #008FC0;
+}
+/*--------------HEADER IMAGES----------------*/
+.photos
+{
+    position: static;
+    padding-top: 10px;
+    padding-left: 150px;
+    
+    float: left;
+}
+
+.photo
+{
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -webkit-transition-delay: 0.1s;
+    -moz-transition: all 0.5s;
+    -moz-transition-delay: 0.1s;
+    -ms-transition: all 0.5s;
+    -ms-transition-delay: 0.1s;
+    -o-transition: all 0.5s;
+    -o-transition-delay: 0.1s;
+    transition: all 0.5s;
+    transition-delay: 0.1s;
+}
+
+    .photo img
+    {
+        width: 150px;
+        -webkit-transition: all 0.5s;
+        -webkit-transition-delay: 0.1s;
+        -moz-transition: all 0.5s;
+        -moz-transition-delay: 0.1s;
+        -ms-transition: all 0.5s;
+        -ms-transition-delay: 0.1s;
+        -o-transition: all 0.5s;
+        -o-transition-delay: 0.1s;
+        transition: all 0.5s;
+        transition-delay: 0.1s;
+        border: 4px solid #f24537;
+    }
+/*.photo:hover img{
+				width: 250px;
+				margin: -80px -60px;
+				z-index: 1000;
+			}			
+			.photo:hover {
+				z-index: 1000;
+				-webkit-transform: rotate(0deg)!important;
+				-moz-transform: rotate(0deg)!important;
+				-ms-transform: rotate(0deg)!important;
+				-o-transform: rotate(0deg)!important;
+				transform: rotate(0deg)!important;
+			}*/
+#photo1
+{
+    padding-top: 10px;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+#photo2
+{
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+#photo3
+{
+    -webkit-transform: rotate(-11deg);
+    -moz-transform: rotate(-11deg);
+    -ms-transform: rotate(-11deg);
+    -o-transform: rotate(-11deg);
+    transform: rotate(-11deg);
+}
+
+#photo4
+{
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+/*-------------------------------------------*/
+div.menu
+{
+    background-color: #f24537;
+    width: 100%;
+    height: 30px;
+}
+
+div.content
+{
+    width: 100%;
+    height: 640px;
+    background-color: #E9FF32;
+}
+
+div.grid
+{
+    background-image: url('../images/grid.png');
+    width: 20px;
+    height: 640px;
+    top: 0px;
+}
+
+div.top-grid
+{
+    background-image: url('../images/grid.png');
+    height: 20px;
+    left: 20px;
+    right: 20px;
+    background-repeat: repeat-x;
+}
+
+div.bottom-grid
+{
+    position: absolute;
+    background-image: url('../images/grid.png');
+    height: 20px;
+    left: 20px;
+    right: 20px;
+    top: 620px;
+    background-repeat: repeat-x;
+}
+div.logo {
+    float: right;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+div.header div.logo img
+{
+    max-height: 160px;
+    overflow: hidden;
+}
+/*-----------------------------menu---------------------------------*/
+ul.menu
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu
+{
+    height: 30px;
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+    float: left;
+    width: 100%;
+}
+
+    ul.menu li
+    {
+        list-style: none;
+        float: left;
+        width: 149px;
+        height: 29px;
+        text-align: center;
+        background: #f24537;
+    }
+
+        ul.menu li:last-child
+        {
+            width: 156px;
+            border-right: 0;
+        }
+
+        ul.menu li a
+        {
+            display: block;
+            padding: 0 20px;
+            border-left: 1px solid rgba(255,255,255,0.1);
+            border-right: 1px solid rgba(0,0,0,0.1);
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            line-height: 29px;
+            background: #f24537;
+            -webkit-transition-property: background;
+            -webkit-transition-duration: 700ms;
+            -moz-transition-property: background;
+            -moz-transition-duration: 700ms;
+            text-decoration: none;
+        }
+
+            ul.menu li a:hover
+            {
+                background: #c62d1f;
+                color: white;
+            }
+
+        ul.menu li.active a
+        {
+            background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+            background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+        }
+/*-----------------------------menu---------------------------------*/
+div.content div.tire {
+    background-image: url('../images/tire2.png');
+    height: 350px;
+    width: 60px;
+    margin-top: 20px;
+    float: left;
+}
+div.content div.tire-left {
+    margin-left: 110px;
+}
+
+div.content div.main {
+    float: left;
+    width: 860px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+div.main-header
+{
+    margin-top: 5px;
+    background-color: #f24537;
+    border: 2px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+/*-------------------PAGE CONTACTS---------------------------*/
+table.contacts {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px; 
+    font-weight: bold;
+}
+table.contacts td.img {
+    width: 30px;
+    margin:0 auto 0 0;
+    float: right;
+    padding-right: 10px;
+}
+/*-----------------------------------------------------------*/
+/*----------------PAGE PARTNERSHIP---------------------------*/
+div.main-partnership {
+    padding: 20px 50px;
+    font-size: 20px;
+}
+div.main-partnership img {
+    max-width: 200px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+/*-----------------------------------------------------------*/
+/*------------------------PAGE DISCOUNT----------------------*/
+div.main-discount, div.main-services
+{
+    margin: 30px 20px;
+    font-size: 18px;
+}
+
+    div.main-discount img
+    {
+        /*border: 4px solid #f24537;*/
+        max-width: 380px;
+        overflow: hidden;
+        float: left;
+        margin-bottom: 10px;
+    }
+    div.main-services img {
+        
+        max-width: 370px;
+        overflow: hidden;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    div.main-discount .discount
+    {
+        width: 45%;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+div.discount-row
+{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+/*-----------------------------------------------------------*/

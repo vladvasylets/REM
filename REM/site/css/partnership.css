@@ -1,0 +1,10 @@
+﻿div.partnership-images {
+    padding: 50px 20px 0;
+}
+    div.partnership-images img {
+        max-height: 100px;
+        padding-right: 31px;
+    }
+        div.partnership-images img:last-child {
+            padding-right: 0;
+        }

@@ -1,0 +1,10 @@
+﻿div.contacts-images {
+    padding: 20px;
+}
+    div.contacts-images img {
+        max-height: 120px;
+        padding-right: 33px;
+    }
+        div.contacts-images img:last-child {
+            padding-right: 0;
+        }

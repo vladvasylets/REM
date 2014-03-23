@@ -1,0 +1,34 @@
+﻿div.content {
+    height: 1240px;
+}
+div.grid {
+    height: 1240px;
+}
+div.bottom-grid {
+    top: 1220px;
+}
+div.content div.tire {
+    height: 955px;
+}
+div.main-service {
+    margin: 30px 20px;
+    font-size: 18px;
+}
+    div.main-service img {
+        border: 4px solid #f24537;
+        max-width: 100px;
+        overflow: hidden;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+div.main-services .service {
+    width: 390px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+div.service-row {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
